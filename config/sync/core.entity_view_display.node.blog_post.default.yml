@@ -3,13 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.blog_post.body
     - field.field.node.blog_post.comment
     - field.field.node.blog_post.field_date
     - node.type.blog_post
   module:
-    - comment
     - datetime
     - text
     - user
@@ -25,15 +23,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  comment:
-    weight: 1
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
-    type: comment_default
-    region: content
   field_date:
     weight: 0
     label: above
@@ -48,4 +37,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  comment: true
