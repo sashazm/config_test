@@ -21,12 +21,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 1
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   comment:
-    weight: 3
+    weight: 1
     label: above
     settings:
       view_mode: default
@@ -35,7 +35,7 @@ content:
     type: comment_default
     region: content
   field_date:
-    weight: 2
+    weight: 0
     label: above
     settings:
       format_type: medium
@@ -44,7 +44,7 @@ content:
     type: datetime_default
     region: content
   links:
-    weight: 0
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
