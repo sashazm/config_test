@@ -1,0 +1,12 @@
+uuid: f18f9b58-df0f-4d33-95a0-021e10222a04
+langcode: en
+status: true
+dependencies: {  }
+id: test
+label: test
+recipients:
+  - '''webmaster@example.com'
+reply: ''
+weight: 0
+message: test
+redirect: /
