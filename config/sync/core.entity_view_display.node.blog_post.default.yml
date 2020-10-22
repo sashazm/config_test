@@ -18,19 +18,19 @@ mode: default
 content:
   body:
     label: hidden
-    type: text_default
+    type: text_trimmed
     weight: 3
-    settings: {  }
+    settings:
+      trim_length: 600
     third_party_settings: {  }
     region: content
   field_date:
     weight: 0
     label: inline
     settings:
-      format_type: medium
       timezone_override: ''
     third_party_settings: {  }
-    type: datetime_default
+    type: datetime_plain
     region: content
   links:
     weight: 2
