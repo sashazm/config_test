@@ -25,7 +25,7 @@ content:
     region: content
   field_date:
     weight: 0
-    label: above
+    label: inline
     settings:
       format_type: medium
       timezone_override: ''
