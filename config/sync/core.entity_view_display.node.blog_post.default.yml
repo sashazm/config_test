@@ -19,7 +19,7 @@ bundle: blog_post
 mode: default
 content:
   body:
-    label: hidden
+    label: inline
     type: text_default
     weight: 3
     settings: {  }
