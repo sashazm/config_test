@@ -1,0 +1,8 @@
+uuid: cca20209-a0d4-402a-8026-7194125d259c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blog caregories'
+vid: blog_caregories
+description: ''
+weight: 0

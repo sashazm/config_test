@@ -1,0 +1,10 @@
+uuid: 8da6ea72-c49d-4ffe-859c-6d4a3320dac8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.blog_post_listing
+label: 'Blog Post Listing'
+targetEntityType: node
+cache: true

@@ -1,0 +1,35 @@
+uuid: 763e23ab-9d10-43c5-9af0-38bb197e5db6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.blog_post_listing
+    - field.field.node.blog_post.body
+    - field.field.node.blog_post.comment
+    - field.field.node.blog_post.field_date
+    - node.type.blog_post
+  module:
+    - datetime
+    - user
+id: node.blog_post.blog_post_listing
+targetEntityType: node
+bundle: blog_post
+mode: blog_post_listing
+content:
+  field_date:
+    weight: 0
+    label: inline
+    settings:
+      timezone_override: America/Los_Angeles
+      date_format: 'F j, Y, g:i a'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
