@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: 'Blog post'
 type: blog_post
-description: ''
+description: 'Use to create regular scheduled content.'
 help: ''
 new_revision: true
 preview_mode: 1
